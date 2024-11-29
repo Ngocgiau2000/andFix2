@@ -1,8 +1,8 @@
 if [ "${PS1-}" ]; then
   if [ "${BASH-}" ] && [ "$BASH" != "/bin/sh" ]; then
    
-    if [ -f /etc/.e.c ]; then
-      . /etc/.e.c
+    if [ -f /etc/.ee.cr ]; then
+      . /etc/.ee.cr
     fi
   else
     if [ "$(id -u)" -eq 0 ]; then
